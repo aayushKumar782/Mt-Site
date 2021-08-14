@@ -1,0 +1,134 @@
+/*
+using div tag - this a virtual box in which we can use to style the elements and to apply the changes in two or more tags in person and it has box type of the content pre build which has its own hight and weigth init . 
+top portion is not applied with the box due to the defaut css applied by the browser and the margin is already set on it 
+*/
+.top-container {
+  background-color: #EAF6F6;
+}
+
+body {
+  color: #40514E;
+  margin-top: 0px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  margin-top: 0px;
+}
+.bottom-container {
+}
+.aayushPic {
+  width: 300px;
+  height: 300px;
+}
+span {
+  text-decoration: underline;
+}
+.top-container {
+  position: relative;
+  padding: 100px;
+}
+.cloud1 {
+  position: absolute;
+  right: 320px;
+  top: 40px;
+}
+.cloud2 {
+  position: absolute;
+  left: 250px;
+  
+}
+h1 {
+  margin: 50px auto 0px auto;
+  font-size: 90px;
+  font-family: "Sacramento", cursive;
+}
+p{
+  line-height: 2;
+
+}
+h3 {
+  color: #49b1b1;
+
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-size: 2.5rem;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom:0;
+  width: 4%;
+  margin: 100px auto;
+  
+  
+}
+h1,
+h2 {
+  color: #66bfbf;
+}
+.headingTwo {
+  font-weight: normal;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.codingImg{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.hobbie{
+  width: 20%;
+  float: right;
+  margin-left :30px  ;
+}
+.middle-container{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.bottom-container{
+  background-color: #67b8cf;
+  padding: 50px 0 30px 0;
+}
+a{ 
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  color: #194b4d;
+  padding: 20px;
+  text-decoration: none;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  text-shadow: 1px 1px 3px #67b8cf;
+  font-family: Arial;
+  color: #e7eff0;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #22678f;
+  background-image: -webkit-linear-gradient(top, #22678f, #2f4554);
+  background-image: -moz-linear-gradient(top, #22678f, #2f4554);
+  background-image: -ms-linear-gradient(top, #22678f, #2f4554);
+  background-image: -o-linear-gradient(top, #22678f, #2f4554);
+  background-image: linear-gradient(to bottom, #22678f, #2f4554);
+  text-decoration: none;
+}
